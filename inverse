@@ -36,6 +36,7 @@ def gya(gyo):
 z = gya(gyo)
 if z == 1:
     print("ERROR")
+
 else:
     print(f"{z[0][0]:.3f} {z[0][1]:.3f} {z[0][2]:.3f}")
     print(f"{z[1][0]:.3f} {z[1][1]:.3f} {z[1][2]:.3f}")
