@@ -1,5 +1,5 @@
 # 3行3列の行列の逆行列
-![test](https://github.com/guangjitian755-cell/inverse-matrix/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/guangjitian755-cell/inverse-matrix/actions/workflows/test.yml/badge.svg)  
 標準入力で読み取った行列の逆行列を求めるプログラムです.  
 対応しているのは3×3の行列のみなので、2×2や4×4などの行列には対応していないことに注意してください.
 
@@ -34,7 +34,7 @@ $ chmod +x inverse
 4 5 6
 7 8 9
 ```
-という逆行列が存在しない行列を入力する
+という逆行列が存在しない行列を渡す
 -入力
     ```bash
     $ echo -e "1 2 3\n4 5 6\n 7 8 9" | ./inverse
@@ -51,5 +51,6 @@ $ chmod +x inverse
 
 ## テスト環境
 - Ubuntu 22.04 LTS
+- Python 3.13.5  
 
 © 2025 Hikaru Yoshida
