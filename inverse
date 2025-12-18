@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/pikapika/anaconda3/bin/python3
 # SPDX-FileCopyrightText: 2025 Hikaru Yoshida
 # SPDX-License-Identifier: BSD-3-Clause
 
@@ -35,8 +35,7 @@ def gya(gyo):
 
 z = gya(gyo)
 if z == 1:
-    print("ERROR")
-
+    pass
 else:
     print(f"{z[0][0]:.3f} {z[0][1]:.3f} {z[0][2]:.3f}")
     print(f"{z[1][0]:.3f} {z[1][1]:.3f} {z[1][2]:.3f}")
