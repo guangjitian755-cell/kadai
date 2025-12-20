@@ -11,7 +11,7 @@
 
 ## 使用方法
 ```bash
-$ git clone git@github.com:guangjitian755-cell/inverse-matrix.git
+$ git clone https://github.com/guangjitian755-cell/inverse-matrix.git
 $ cd inverse-matrix
 $ chmod +x inverse
 ```
