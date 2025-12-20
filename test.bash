@@ -2,7 +2,6 @@
 # SPDX-FileCopyrightText: 2025 Hikaru Yoshida
 # SPDX-License-Identifier: BSD-3-Clause
 
-#!/bin/bash
 
 ng () {
     echo "${1}行目が違う"
